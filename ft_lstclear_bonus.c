@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:58:07 by skock             #+#    #+#             */
-/*   Updated: 2024/11/11 18:03:51 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 12:44:04 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,18 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
+	t_list	*current;
+	t_list	*temp;
+
 	if (!lst || !del)
-		return (NULL);
+		return ;
+	current = *lst;
+	while (current != NULL)
+	{
+		temp = current;
+		current = current->next;
+		del(temp->content);
+		free(temp);
+	}
+	*lst = NULL;
 }

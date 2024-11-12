@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:36:57 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:37:00 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:18 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,18 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-// int	main()
-// {
-// 	char str[10];
-// 	size_t	i;
-
-// 	memset(str, 'X', 9);
-// 	i = 0;
-// 	while (i < sizeof(str))
-// 	{
-// 			printf("%c ", str[i]);
-// 			i++;
-// 	}
-// 	return (0);
-// }

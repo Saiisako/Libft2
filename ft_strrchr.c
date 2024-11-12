@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:37:56 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:37:57 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:40:14 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,3 @@ char	*ft_strrchr(char *str, int c)
 	}
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char str[] = "comment ca va";
-	char *ptr;
-	int i = 'c';
-
-	ptr = ft_strrchr(str, i);
-	printf("il y a %c, dans : %s, ici : %s", i, str, ptr);
-	return 0;
-} */

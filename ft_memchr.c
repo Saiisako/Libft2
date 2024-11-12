@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 00:44:51 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:33:35 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:39:18 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,19 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char		*str = "bonjour comment ca va ?";
-	int		c = '?';
-	size_t	n = 23;
-
-	char *result = (char *)ft_memchr(str, c, n);
-
-	if (result != NULL)
-		printf("Résultat : %s\n", result);
-	else
-		printf("Caractère non trouvé\n");
-	return (0);
-}
-*/

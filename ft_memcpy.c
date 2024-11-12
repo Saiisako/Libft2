@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:36:40 by skock             #+#    #+#             */
-/*   Updated: 2024/11/11 13:01:32 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:12 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,14 +28,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	char dest[11] = "Hi";
-// 	char src[11] = "HelloWorld";
-
-// 	printf("%s\n", dest);
-// 	memcpy(dest, src, 2);
-// 	printf("%s\n", dest);
-// 	return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:38:15 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:38:17 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:46 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,14 +22,3 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
-/*
-int	main(void)
-{
-	char c;
-
-	c = 'a';
-
-	printf("%c", toupper(c));
-	return 0;
-}
-*/

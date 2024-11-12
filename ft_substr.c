@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:38:03 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:38:04 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:41 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new_str[i] = '\0';
 	return (new_str);
 }
-
-// int main(void)
-// {
-//     char str[] =    "La libft c'est top !";
-//     unsigned int    start = 5;
-//     size_t          len = 10;
-
-//     printf("avant substr %s\n", str);
-//     printf("apres substr %s\n", ft_substr(str, start, len));
-//     return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:35:56 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:35:59 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:40:54 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int main(void)
-{
-	char c = '';
-	printf("%d", ft_isalnum(c));
-	return 0;
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:37:50 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:37:52 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:35 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	in[] = "Bonjour ici 42";
-// 	char	to_find[] = "ici";
-
-// 	printf("%s\n", ft_strnstr(in, to_find, 14));
-// 	return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:36:09 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:36:11 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:40:58 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int main(void)
-{
-	char c = 'a';
-	printf("%d", ft_isascii(c));
-	return 0;
-}
-*/

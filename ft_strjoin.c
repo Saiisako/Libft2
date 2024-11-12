@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:18:33 by skock             #+#    #+#             */
-/*   Updated: 2024/11/11 15:37:46 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:39:56 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[j] = 0;
 	return (str);
 }
-// int main(void)
-// {
-//     char    str1[] = "Salut";
-//     char    str2[] = " ca va ?";
-
-//     printf("La chaîne assemblée est : %s\n", ft_strjoin(str1, str2));
-//     return 0;
-// }

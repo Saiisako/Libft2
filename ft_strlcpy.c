@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:37:30 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:37:31 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:40:01 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,19 +28,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (ft_strlen(src));
 }
-/*
-int	main(void)
-{
-	char	dest[] = "hello";
-	const char	src[] = "world";
-	size_t	length;
-
-	puts(dest);
-
-	length = ft_strlcpy(dest, src, 2);
-
-	puts(dest);
-	printf("%ld", length);
-	return 0;
-}
-*/

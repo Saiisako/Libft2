@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:33:49 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:33:57 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:39:22 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int	main(void)
-{
-	char		*s1 = "salut";
-	char		*s2 = "salua";
-	size_t	n = 5;
-	printf("%d", ft_memcmp(s1, s2, n));
-	return 0;
-}*/

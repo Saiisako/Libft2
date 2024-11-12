@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:13:04 by skock             #+#    #+#             */
-/*   Updated: 2024/11/11 15:10:37 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:39:42 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,22 +115,3 @@ char	**ft_split(char const *s, char c)
 	new_str = ft_put(s, new_str, c);
 	return (new_str);
 }
-// int	main(void)
-// {
-// 	char	str[] = "dw d d d ?";
-// 	char	cut = ' ';
-// 	int		i = 0;
-// 	char	**new_str;
-
-// 	new_str = ft_split(str, cut);
-// 	if (!new_str)
-// 		return (1);
-// 	while (new_str[i])
-// 	{
-// 		printf("%s\n", new_str[i]);
-// 		free(new_str[i]);
-// 		i++;
-// 	}
-// 	free(new_str);
-// 	return (0);
-// }

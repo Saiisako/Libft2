@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 12:44:32 by skock             #+#    #+#             */
-/*   Updated: 2024/11/11 15:13:34 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:39 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,12 +50,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	new_str[i] = '\0';
 	return (new_str);
 }
-
-// int		main(void)
-// {
-// 	char	str1[] = "bozobzo,chloe,bozo";
-// 	char	str2[] = "bozo";
-
-// 	printf("%s", ft_strtrim(str1, str2));
-// 	return (0);
-// }

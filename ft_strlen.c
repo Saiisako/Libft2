@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:37:34 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:37:35 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:30 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-
-/*
-int main(void)
-{
-	char str[] = "bonjour ca va ?";
-	printf("%zu", ft_strlen(str));
-	return 0;
-}
-*/

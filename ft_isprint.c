@@ -6,7 +6,7 @@
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/08 15:36:23 by skock             #+#    #+#             */
-/*   Updated: 2024/11/08 15:36:25 by skock            ###   ########.fr       */
+/*   Updated: 2024/11/12 16:41:01 by skock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int main(void)
-{
-	char c = '';
-	printf("%d", ft_isprint(c));
-	return 0;
-}
-*/
